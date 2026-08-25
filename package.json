@@ -11,6 +11,7 @@
     "build:anshul": "NEXT_PUBLIC_PERSONA=anshulbh9 next build",
     "build:vivekanand": "NEXT_PUBLIC_PERSONA=vivekanand-07128411 next build",
     "build:chandrima": "NEXT_PUBLIC_PERSONA=chandrima-das-6b7b63192 next build",
+    "build:varsha": "NEXT_PUBLIC_PERSONA=varsha-tyagi-b55306114 next build",
     "start:express": "node server.js"
   },
   "dependencies": {
