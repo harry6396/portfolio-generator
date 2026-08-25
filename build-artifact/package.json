@@ -4,10 +4,12 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "next dev",
+    "dev": "node server.js",
     "build": "next build",
+    "start": "NODE_ENV=production node server.js",
     "generate-data": "node scripts/enhanceProfile.mjs",
     "build:anshul": "NEXT_PUBLIC_PERSONA=anshulbh9 next build",
+    "build:vivek": "NEXT_PUBLIC_PERSONA=vivekanand-07128411 next build",
     "build:vivekanand": "NEXT_PUBLIC_PERSONA=vivekanand-07128411 next build",
     "build:chandrima": "NEXT_PUBLIC_PERSONA=chandrima-das-6b7b63192 next build",
     "start:express": "node server.js"

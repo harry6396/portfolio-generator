@@ -3,6 +3,27 @@
 # Build script for portfolio-generator to package artifacts for generic pipeline
 set -e
 
+PERSONA="${1:-anshul}"
+
+case "$PERSONA" in
+    anshul|anshulbh9)
+        NEXT_PUBLIC_PERSONA="anshulbh9"
+        ;;
+    vivek|vivekanand|vivekanand-07128411)
+        NEXT_PUBLIC_PERSONA="vivekanand-07128411"
+        ;;
+    chandrima|chandrima-das-6b7b63192)
+        NEXT_PUBLIC_PERSONA="chandrima-das-6b7b63192"
+        ;;
+    *)
+        NEXT_PUBLIC_PERSONA="$PERSONA"
+        ;;
+esac
+
+export NEXT_PUBLIC_PERSONA
+
+echo "Target portfolio persona: $NEXT_PUBLIC_PERSONA"
+
 echo "Installing dependencies..."
 npm ci
 
