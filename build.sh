@@ -4,9 +4,9 @@
 set -e
 
 # Capture the persona argument ($1) or fallback to default
-PERSONA="${1:-hello}"
+PERSONA="${1:-anshul}"
 
-echo "Target portfolio persona: $PERSONA"
+echo "Target portfolio persona: $PERSONA..."
 
 echo "Installing dependencies..."
 npm ci
@@ -19,7 +19,6 @@ ARTIFACT_DIR="build-artifact"
 rm -rf "$ARTIFACT_DIR"
 mkdir -p "$ARTIFACT_DIR"
 
-echo "Copying static/standalone build..."
 # For Next.js static exports (output: 'export')
 if [ -d "out" ]; then
     echo "Copying static export directory (out)..."
@@ -37,6 +36,15 @@ fi
 echo "Copying public files (if any)..."
 if [ -d "public" ]; then
     cp -r public "$ARTIFACT_DIR/"
+fi
+
+echo "Copying server.js and package.json to artifact..."
+if [ -f "server.js" ]; then
+    cp server.js "$ARTIFACT_DIR/"
+fi
+
+if [ -f "package.json" ]; then
+    cp package.json "$ARTIFACT_DIR/"
 fi
 
 echo "Build artifact created at: $ARTIFACT_DIR"
