@@ -4,9 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "next dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js",
     "generate-data": "node scripts/enhanceProfile.mjs",
     "build:anshul": "NEXT_PUBLIC_PERSONA=anshulbh9 next build",
     "build:vivekanand": "NEXT_PUBLIC_PERSONA=vivekanand-07128411 next build",

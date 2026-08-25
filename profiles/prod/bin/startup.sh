@@ -7,7 +7,7 @@ export PORT=${PORT:-3001}
 export HOSTNAME="0.0.0.0"
 
 # Navigate to application root directory where server.js resides
-APP_DIR="/${APP:-prodhub-static}"
+APP_DIR="/${APP:-portfolio-generator}"
 if [ -d "$APP_DIR" ]; then
     cd "$APP_DIR"
 fi
