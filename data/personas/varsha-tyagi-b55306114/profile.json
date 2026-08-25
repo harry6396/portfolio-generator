@@ -1,60 +1,53 @@
 {
-    "name": "Varsha Tyagi",
-    "title": "Senior Software Engineer @ Ciena",
-    "bio": "Senior Software Engineer and Networking Automation Specialist with extensive experience in Python development, L2 networking protocols (Switching, VLANs, STP, Ethernet), and Passive Optical Network (PON) architecture and performance monitoring.",
-    "linkedin": "https://www.linkedin.com/in/varsha-tyagi-b55306114",
-    "skills": [
+  "name": "Varsha Tyagi",
+  "title": "Senior Software Engineer @ Ciena",
+  "bio": "Senior Software Engineer and networking automation specialist with experience in Python development, L2 networking protocols, switching, VLANs, STP, Ethernet, and Passive Optical Network architecture.",
+  "linkedin": "https://www.linkedin.com/in/varsha-tyagi-b55306114/",
+  "skills": [
+    "Python",
+    "C",
+    "Ixia",
+    "L2 Networking",
+    "Switching",
+    "VLANs",
+    "STP",
+    "Ethernet",
+    "PON Architecture",
+    "Network Automation",
+    "Performance Monitoring"
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineer",
+      "company": "Ciena",
+      "period": "July 2025 - Present",
+      "description": "Leading network automation initiatives, architecting test automation frameworks using Python and Ixia, and managing L2 networking validation across optical and Ethernet infrastructure."
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Ciena",
+      "period": "January 2022 - July 2025",
+      "description": "Engineered automated testing suites for L2 protocols, STP, VLANs, and Passive Optical Network systems while improving performance monitoring and hardware validation."
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Altran",
+      "period": "April 2019 - January 2022",
+      "description": "Developed firmware and automation scripts in C and Python for telecommunications equipment and embedded network protocol stacks."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Automated L2/PON Network Testing Framework",
+      "description": "Designed and deployed Python-based network automation suites using Ixia hardware to simulate, stress-test, and monitor L2 switching protocols and PON architectures.",
+      "tags": [
         "Python",
-        "C",
         "Ixia",
         "L2 Networking",
-        "Switching",
-        "VLANs",
+        "PON",
         "STP",
-        "Ethernet",
-        "PON Architecture",
-        "Network Automation",
-        "Performance Monitoring"
-    ],
-    "experience": [
-        {
-            "role": "Senior Software Engineer",
-            "company": "Ciena",
-            "period": "July 2025 - Present",
-            "description": "Leading network automation initiatives, architecting test automation frameworks using Python and Ixia, and managing L2 networking validation across optical and Ethernet infrastructure."
-        },
-        {
-            "role": "Software Engineer",
-            "company": "Ciena",
-            "period": "January 2022 - July 2025",
-            "description": "Engineered automated testing suites for L2 protocols (VLANs, STP) and passive optical network (PON) systems, optimizing network performance monitoring and hardware validation."
-        },
-        {
-            "role": "Software Engineer",
-            "company": "Altran",
-            "period": "April 2019 - January 2022",
-            "description": "Developed firmware and automation scripts in C and Python for telecommunications equipment and embedded network protocol stacks."
-        }
-    ],
-    "projects": [
-        {
-            "title": "Automated L2/PON Network Testing Framework",
-            "description": "Designed and deployed Python-based network automation suites using Ixia hardware to simulate, stress-test, and monitor L2 switching protocols and PON architectures.",
-            "tags": [
-                "Python",
-                "Ixia",
-                "L2 Networking",
-                "PON",
-                "STP",
-                "VLAN"
-            ]
-        }
-    ],
-    "education": [
-        {
-            "institution": "ITM Group of Institutions",
-            "degree": "Bachelor of Engineering / Technology",
-            "period": "2014 - 2018"
-        }
-    ]
+        "VLAN"
+      ]
+    }
+  ]
 }

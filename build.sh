@@ -15,10 +15,20 @@ case "$PERSONA" in
     chandrima|chandrima-das-6b7b63192)
         NEXT_PUBLIC_PERSONA="chandrima-das-6b7b63192"
         ;;
+    varsha|varsha-tyagi|varsha-tyagi-b55306114)
+        NEXT_PUBLIC_PERSONA="varsha-tyagi-b55306114"
+        ;;
     *)
         NEXT_PUBLIC_PERSONA="$PERSONA"
         ;;
 esac
+
+if [ ! -d "data/personas/$NEXT_PUBLIC_PERSONA" ]; then
+    echo "Error: profile data not found for persona: $NEXT_PUBLIC_PERSONA"
+    echo "Available personas:"
+    find data/personas -mindepth 1 -maxdepth 1 -type d -exec basename {} \; | sort
+    exit 1
+fi
 
 export NEXT_PUBLIC_PERSONA
 
