@@ -1,0 +1,54 @@
+{
+  "name": "Anshul Bhardwaj",
+  "title": "Senior Software Engineer @ Salesforce",
+  "bio": "Software Engineer at Salesforce skilled in Java, Python, C++, Spring Boot, SQL, React.js, Docker, Kubernetes, Kibana, and Grafana. Holds a Bachelor of Engineering focused in Computer Science from Thapar Institute of Engineering and Technology.",
+  "linkedin": "https://www.linkedin.com/in/anshulbh9",
+  "skills": [
+    "Distributed Systems",
+    "Cloud Computing",
+    "Software Architecture",
+    "Java",
+    "Python",
+    "C++",
+    "Spring Boot",
+    "SQL",
+    "React.js",
+    "Docker",
+    "Kubernetes",
+    "Kibana",
+    "Grafana"
+  ],
+  "experience": [
+    {
+      "role": "Senior Member of Technical Staff",
+      "company": "Salesforce",
+      "period": "August 2025 - Present",
+      "description": "Senior Member of Technical Staff based in Bengaluru, Karnataka, India."
+    },
+    {
+      "role": "Member of Technical Staff",
+      "company": "Salesforce",
+      "period": "October 2022 - July 2025",
+      "description": "Member of Technical Staff based in Bengaluru, Karnataka, India."
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Flipkart",
+      "period": "March 2021 - October 2022",
+      "description": "Software Engineer based in Bengaluru, Karnataka, India."
+    },
+    {
+      "role": "Software Development Engineer",
+      "company": "OYO",
+      "period": "August 2020 - March 2021",
+      "description": "Software Development Engineer based in Gurugram, Haryana, India."
+    },
+    {
+      "role": "Software Development Intern",
+      "company": "OYO",
+      "period": "January 2020 - July 2020",
+      "description": "Software Development Intern based in Gurugram, Haryana, India."
+    }
+  ],
+  "projects": []
+}

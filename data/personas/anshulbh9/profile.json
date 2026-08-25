@@ -1,0 +1,33 @@
+{
+  "name": "Anshul Bhatnagar",
+  "title": "Lead Software Engineer & Platform Architect",
+  "bio": "Experienced engineering lead specializing in cloud-native platforms, microservice orchestration, dynamic CI/CD pipelines, and high-performance frontend architecture.",
+  "linkedin": "https://www.linkedin.com/in/anshulbh9/",
+  "skills": ["React", "Next.js", "Node.js", "TypeScript", "Go", "Kubernetes", "Docker", "AWS", "System Design"],
+  "experience": [
+    {
+      "role": "Tech Lead / Principal Engineer",
+      "company": "Cloud scale Solutions",
+      "period": "2022 - Present",
+      "description": "Architecting developer platforms, automating dynamic static deployments, and mentoring engineering squads."
+    },
+    {
+      "role": "Senior Full Stack Engineer",
+      "company": "Tech Product Studio",
+      "period": "2019 - 2022",
+      "description": "Built resilient distributed services in Go and scalable Next.js user interfaces for enterprise clients."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Dynamic Portfolio Engine",
+      "description": "Multi-tenant static site generation workflow driving automated portfolio sites via Next.js App Router.",
+      "tags": ["Next.js", "Express", "Node.js", "Docker"]
+    },
+    {
+      "title": "CloudEdge Deployer",
+      "description": "Lightweight orchestration runner for single-click multi-cloud application provisioning.",
+      "tags": ["Go", "Kubernetes", "gRPC"]
+    }
+  ]
+}

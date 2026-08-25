@@ -1,0 +1,102 @@
+{
+  "name": "Vivekanand",
+  "title": "Senior Software Engineering Manager | Ex-Myntra | Ex-Goldman Sachs | Ex-Flipkart",
+  "bio": "Experienced Software Engineer with extensive experience in developing products and applications, building distributed frameworks, and designing distributed system architectures.",
+  "linkedin": "https://www.linkedin.com/in/vivekanand-07128411",
+  "skills": [
+    "Interpersonal Communication",
+    "Communication",
+    "Security"
+  ],
+  "experience": [
+    {
+      "role": "Senior Software Engineering Manager",
+      "company": "Salesforce",
+      "period": "July 2024 - Present",
+      "description": "Leading software engineering teams and technical strategy."
+    },
+    {
+      "role": "Associate Director",
+      "company": "Myntra",
+      "period": "April 2024 - June 2024",
+      "description": "Served as Associate Director driving engineering initiatives."
+    },
+    {
+      "role": "Senior Engineering Manager",
+      "company": "Myntra",
+      "period": "March 2021 - March 2024",
+      "description": "Managed engineering teams and built scalable distributed systems."
+    },
+    {
+      "role": "Vice President",
+      "company": "Goldman Sachs",
+      "period": "February 2020 - February 2021",
+      "description": "Vice President role driving software architecture and platform development."
+    },
+    {
+      "role": "Software Developer",
+      "company": "Flipkart",
+      "period": "October 2017 - February 2020",
+      "description": "Designed and developed Flipkart Catalogue Management System features (Retro and Auto QC) to reduce product listing turnaround time. Led the design and implementation of Federated Architecture for Flipkart Cloud Platform (Storage as a Service) using Ceph."
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "Infinera",
+      "period": "August 2013 - October 2017",
+      "description": "Worked on a distributed transactional framework providing transaction atomicity, network state backup/restore, system recovery, and performance monitoring."
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Cisco Systems",
+      "period": "February 2012 - August 2013",
+      "description": "Developed code for IPC framework for inter-process communication in Evolution middleware for video streaming. Integrated Qt and PhoneMe."
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Subex Ltd",
+      "period": "July 2010 - February 2012",
+      "description": "Wrote C++ code for real-time fraud detection server in telecom services, developed statistical rule modules, and wrote PL/SQL packages."
+    }
+  ],
+  "projects": [
+    {
+      "title": "Flipkart Catalogue Management System (Retro and Auto QC)",
+      "description": "Redesigned catalogue system pipeline for product listings to reduce turnaround time using ML-based intelligence systems and automated quality check models.",
+      "tags": [
+        "Machine Learning",
+        "Catalogue Management",
+        "Automation"
+      ]
+    },
+    {
+      "title": "Federated Architecture for Flipkart Cloud Platform (SaaS)",
+      "description": "Designed and deployed Enterprise-class S3 cloud storage on-premise using Ceph. Implemented hybrid SSD/HDD architecture, dynamic traffic routing across clusters, real-time data migration service, and health monitoring frameworks.",
+      "tags": [
+        "Ceph",
+        "S3 Cloud Storage",
+        "Distributed Systems",
+        "SaaS"
+      ]
+    },
+    {
+      "title": "Evolution Middleware IPC Framework",
+      "description": "Developed inter-process communication framework APIs for video streaming middleware and integrated Qt with PhoneMe.",
+      "tags": [
+        "IPC",
+        "Video Streaming",
+        "Qt",
+        "PhoneMe"
+      ]
+    },
+    {
+      "title": "Real-Time Fraud Detection Application",
+      "description": "Developed server-side C++ components and PL/SQL packages for monitoring VOICE, GPRS, SMS, and MMS telecom services.",
+      "tags": [
+        "C++",
+        "PL/SQL",
+        "Telecom",
+        "Fraud Detection"
+      ]
+    }
+  ]
+}

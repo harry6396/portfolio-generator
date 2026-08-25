@@ -1,0 +1,13 @@
+{
+  "name": "Vivekanand",
+  "title": "Software Professional",
+  "bio": "Experienced software practitioner focused on building reliable, scalable enterprise applications and solutions.",
+  "linkedin": "https://www.linkedin.com/in/vivekanand-07128411/",
+  "skills": ["Software Engineering", "System Design", "Architecture", "Cloud Native"],
+  "projects": [
+    {
+      "title": "Enterprise Application Suite",
+      "description": "High-throughput application framework built for resilience and distributed operations."
+    }
+  ]
+}

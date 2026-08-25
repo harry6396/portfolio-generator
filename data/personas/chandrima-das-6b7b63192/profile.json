@@ -1,0 +1,13 @@
+{
+  "name": "Chandrima Das",
+  "title": "Technology Professional",
+  "bio": "Passionate technology innovator with strong experience across modern stack implementations and delivery.",
+  "linkedin": "https://www.linkedin.com/in/chandrima-das-6b7b63192/",
+  "skills": ["Frontend Development", "JavaScript", "React", "User Experience design"],
+  "projects": [
+    {
+      "title": "User Centric Web Experience",
+      "description": "Designed accessible web interfaces optimized for responsiveness and fast static rendering."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "Chandrima Das",
+  "title": "Senior Java Developer with a focus on Spring Boot and AWS",
+  "bio": "Lead Software Developer and Senior Java Developer with over 10 years of backend engineering experience. Specializes in Java, Spring Boot, microservices, cloud infrastructure (AWS), containerized environments (Docker, Kubernetes), and real-time streaming technologies like Kafka. Experienced in building scalable cloud-native architectures, event-driven data pipelines, and high-performance data platforms.",
+  "linkedin": "https://www.linkedin.com/in/chandrima-das-6b7b63192",
+  "skills": [
+    "Microservices",
+    "Spring Boot",
+    "Java",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "Kafka",
+    "CI/CD",
+    "Communication"
+  ],
+  "experience": [
+    {
+      "role": "Lead Member of Technical Staff",
+      "company": "Salesforce",
+      "period": "August 2024 - Present",
+      "description": "Architects and builds scalable backend systems, cloud-native microservices, and distributed event-driven data pipelines for high-performance data platforms."
+    },
+    {
+      "role": "Senior Member of Technical Staff",
+      "company": "Salesforce",
+      "period": "June 2022 - August 2024",
+      "description": "Developed the Salesforce Customer Data Platform (CDP), powering real-time data insights for enterprise customers."
+    },
+    {
+      "role": "Senior Software Engineer",
+      "company": "JPMorgan Chase & Co.",
+      "period": "August 2021 - July 2022",
+      "description": "Served as a seasoned agile team member designing and delivering secure, stable, and scalable technology solutions supporting key business functions."
+    }
+  ],
+  "projects": []
+}
